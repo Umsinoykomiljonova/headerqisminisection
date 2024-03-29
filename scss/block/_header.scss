@@ -1,0 +1,38 @@
+.section__page{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.section__list{
+  width: 692px;
+  height: 21.5px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 80px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+.section__linkk{
+color: rgb(40, 43, 34);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+text-align: left;
+}
+.section__link{
+color: rgb(61, 74, 57);
+font-family: Lato;
+font-size: 20px;
+font-weight: 600;
+text-align: left;
+}
+.section__img{
+  width: 122px;
+}
+.section__img1{
+  width: 22px;
+}
+.section__img2{
+  width: 10px;
+}
