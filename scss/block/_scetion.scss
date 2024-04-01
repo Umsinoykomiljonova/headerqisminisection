@@ -58,13 +58,17 @@ background-color: rgb(174, 123, 60);
     height: 687px;
   }
 }
-@media only screen and (max-width:317px){
+@media only screen and (max-width:345px){
   .page__content{
     background-image: url(../../img/usta4.png);
     height: 495px;
   }
 }
-@media only screen and (max-width:304px) {
+@media only screen and (max-width:317px) {
+  .page__content{
+    background-image: url(../../img/usta4.png);
+    height: 495px;
+  }
   .page__title{
     font-size: 28px;
   }
