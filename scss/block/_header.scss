@@ -13,6 +13,14 @@
   margin-bottom: 40px;
   margin-top: 60px;
 }
+.section__btn{
+  width: 35px;
+  height: 34px;
+  background-image: url(../../img/ciziq.png);
+  background-repeat: no-repeat;
+  border: none;
+  display: none;
+}
 .section__linkk{
 color: rgb(40, 43, 34);
 font-family: Raleway;
@@ -35,4 +43,30 @@ text-align: left;
 }
 .section__img2{
   width: 10px;
+}
+
+
+
+
+
+@media only screen and (max-width:928px) {
+  .section__list{
+    display: none;
+    // max-width: 932px;
+  }
+  .section__btn{
+    display: inline-block;
+  }
+  // .section__list{
+  //   display: inline-block;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+  //   flex-shrink: ;
+  // }
+}
+@media only screen and (max-width:424px) {
+  .section__pegi{
+    width: 122px;
+  }
 }

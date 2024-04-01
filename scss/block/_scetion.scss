@@ -1,0 +1,77 @@
+.page__content{
+  max-width: 1500px;
+  height: 678px;
+  background-image: url(../../img/usta.png);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.page__title{
+color: rgb(255, 255, 255);
+font-family: Lato;
+font-size: 56px;
+font-weight: 700px;
+}
+.page__text{
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 500px;
+opacity: 0.8;
+margin-bottom: 23px;
+margin-top: 20px;
+}
+.page__btn{
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 700px;
+border: none;
+padding: 17px 42px;
+background-color: rgb(174, 123, 60);
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1130px) {
+  .page__content{
+    background-image: url(../../img/usta2.png);
+    height: 687px;
+  }
+  .page__title{
+    font-size: 56px;
+  }
+  .page__text{
+    font-size: 18px;
+  }
+  .page__btn{
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width:949px) {
+  .page__content{
+    background-image: url(../../img/usta3.png);
+    height: 687px;
+  }
+}
+@media only screen and (max-width:317px){
+  .page__content{
+    background-image: url(../../img/usta4.png);
+    height: 495px;
+  }
+}
+@media only screen and (max-width:304px) {
+  .page__title{
+    font-size: 28px;
+  }
+  .page__text{
+    font-size: 16px;
+  }
+  .page__btn{
+    font-size: 16px;
+  }
+}
