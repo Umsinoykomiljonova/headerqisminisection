@@ -1,9 +1,10 @@
 .page__content{
+  text-align: center;
   max-width: 1500px;
   height: 678px;
   background-image: url(../../img/usta.png);
   background-repeat: no-repeat;
-  text-align: center;
+  background-size:cover;
 }
 .page__title{
 color: rgb(255, 255, 255);
@@ -41,6 +42,7 @@ background-color: rgb(174, 123, 60);
   .page__content{
     background-image: url(../../img/usta2.png);
     height: 687px;
+    background-size:cover;
   }
   .page__title{
     font-size: 56px;
@@ -56,19 +58,18 @@ background-color: rgb(174, 123, 60);
   .page__content{
     background-image: url(../../img/usta3.png);
     height: 687px;
+    max-width: 1000px;
+    background-size:cover
   }
 }
-@media only screen and (max-width:345px){
+@media only screen and (max-width:355px){
   .page__content{
+    max-width: 351px;
     background-image: url(../../img/usta4.png);
     height: 495px;
   }
 }
-@media only screen and (max-width:317px) {
-  .page__content{
-    background-image: url(../../img/usta4.png);
-    height: 495px;
-  }
+@media only screen and (max-width:340px) {
   .page__title{
     font-size: 28px;
   }

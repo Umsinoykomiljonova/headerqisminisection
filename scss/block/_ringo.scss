@@ -1,0 +1,105 @@
+
+
+.ringo__section{
+  text-align: start;
+ 
+}
+.ringo__sectionn::before{
+  content: "";
+  width: 160px;
+  height: 200px;
+  background-image: url(../../img/xona2.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-top: 40px;
+  background-position: -21px -18px;
+}
+.ringo__tit{
+  text-align: center;
+  flex-direction: column;
+}
+.ringo__tit2{
+  text-align: end;
+}
+.ringo__tit2::after{
+  content: "";
+  width: 160px;
+  height: 200px;
+  background-image: url(../../img/xona2.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-top: 40px;
+  background-position: -20px -8px;
+}
+.ringo__title{
+color: rgb(40, 43, 34);
+font-family: Raleway;
+font-size: 36px;
+font-weight: 600;
+line-height: 130%;
+text-align: center;
+}
+.ringo__text{
+color: rgb(40, 43, 34);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.ringo__textt{
+  color: rgb(40, 43, 34);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0%;
+}
+
+.ringo__texxt{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+@media only screen and (max-width:912px) {
+  .ringo__sectionn{
+    display: none;
+  }
+  .ringo__tit2{
+  display: none;
+  }
+  .ringo__title{
+    margin-top: 25px;
+  }
+}
+@media only screen and (max-width:907px) {
+  .ringo__section{
+   max-width: 899px;
+  }
+}
+@media only screen and (max-width:759px) {
+  .ringo__section{
+  max-width: 695px;
+  }
+}
+@media only screen and (max-width:640px) {
+  .ringo__section{
+  max-width: 559px;
+  }
+  .ringo__texxt{
+  flex-direction: column;
+  }
+}
+@media only screen and (max-width:500px) {
+  .ringo__section{
+  max-width: 352px;
+  }
+}

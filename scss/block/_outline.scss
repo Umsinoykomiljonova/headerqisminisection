@@ -1,0 +1,58 @@
+.outline__img{
+  width: 66px;
+  height: 66px;
+}
+
+
+.outline__section{
+  background-color: #3D4A39;
+  text-align: center;
+  padding: 100px 0 ;
+}
+.outline__title{
+  /* заголовок_H2 */
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 46px;
+font-weight: 600;
+line-height: 125%;
+text-transform: uppercase;
+}
+.outline__list{
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.outline__item{
+width: 400px;
+height: 130px;
+text-align: center;
+}
+.outline__text{
+  color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 24px;
+font-weight: 500;
+opacity: 0.5;
+}
+
+
+
+
+
+@media only screen and (max-width:817px) {
+  .outline__item{
+    max-width: 790px;
+  }
+}
+@media only screen and (max-width:376px) {
+  .outline__item{
+    max-width: 354px;
+  }
+}

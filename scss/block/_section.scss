@@ -7,10 +7,15 @@ text-align: center;
 margin-top: 130px;
 margin-bottom: 80px;
 }
+.font__img{
+  max-width: 354px;
+}
 .font__list{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+
 }
 .font__stron{
 color: rgb(40, 43, 34);
@@ -32,13 +37,20 @@ margin-bottom: 30px;
 
 
 
-// @media only screen and (max-width:1054px) {
-//   .font__item{
-//     max-width: 1030px;
-//   }
-// }
-// @media only screen and (max-width:) {
-//   .font__item{
-//     max-width: 1015px;
-//   }
-// }
+@media only screen and (max-width:1067px) {
+  .font__item{
+    max-width: 800px;
+  }
+  .font__img{
+    min-width: 280px;
+  }
+}
+@media screen and (max-width:684px) {
+  .font__list{
+    text-align: center;
+  }
+  .font__item{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
