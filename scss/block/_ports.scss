@@ -68,3 +68,31 @@ letter-spacing: 0%;
 text-align: left;
 opacity: 0.8;
 }
+
+
+
+@media only screen and (max-width:810px) {
+  .ports__item{
+    max-width: 743px;
+  }
+}
+@media only screen and (max-width:687px) {
+  .ports__img{
+    display: none;
+  }
+}
+@media only screen and (max-width:676px) {
+  .ports__item{
+    max-width: 532px;
+  }
+}
+@media only screen and (max-width:530px) {
+  .ports{
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width:420px) {
+  .ports{
+    max-width: 350px;
+  }
+}

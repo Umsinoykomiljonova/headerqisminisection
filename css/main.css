@@ -522,4 +522,144 @@ a {
   text-align: left;
   opacity: 0.8;
 }
+
+@media only screen and (max-width: 810px) {
+  .ports__item {
+    max-width: 743px;
+  }
+}
+
+@media only screen and (max-width: 687px) {
+  .ports__img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 676px) {
+  .ports__item {
+    max-width: 532px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .ports {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .ports {
+    max-width: 350px;
+  }
+}
+
+.terminal__section {
+  background-color: #3d4a39;
+  width: 800px;
+  height: 696px;
+  margin-top: 80px;
+}
+
+.terminal__img {
+  width: 15.43px;
+  height: 18px;
+}
+
+.terminal__img {
+  width: 15px;
+  height: 15px;
+}
+
+.terminal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  margin-left: 90px;
+}
+
+.hr__igm {
+  margin-bottom: 15px;
+}
+
+.terminal__btn {
+  margin-left: 20px;
+  color: white;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  border: none;
+  background-color: #ae7b3c;
+  padding: 22px 58px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+
+.terminal__title {
+  color: white;
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  margin-left: 90px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.terminal__tit {
+  color: white;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 145%;
+  letter-spacing: 0%;
+  margin-left: 90px;
+  margin-top: 15px;
+}
+
+.terminal__text {
+  color: white;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 145%;
+  letter-spacing: 0%;
+  margin-left: 90px;
+  opacity: 0.5;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.terminal__texxt {
+  color: white;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0%;
+  margin-left: 90px;
+}
+
+.img__terminal {
+  width: 800px;
+  height: 696px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 /*# sourceMappingURL=main.css.map */
