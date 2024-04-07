@@ -1,14 +1,4 @@
-.page__text{
-color: rgb(40, 43, 34);
-font-family: Raleway;
-font-size: 16px;
-font-weight: 400;
-line-height: 135%;
-letter-spacing: 0%;
-text-align: left;
-}
 .ports__title{
-  /* заголовок_H2 */
 color: rgb(40, 43, 34);
 font-family: Raleway;
 font-size: 46px;
@@ -17,4 +7,64 @@ line-height: 125%;
 letter-spacing: 0%;
 text-align: center;
 text-transform: uppercase;
+margin-bottom: 40px;
+margin-top: 60px;
+}
+.ports__img{
+  width: 340px;
+  height: 240px;
+}
+.ports__item{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ports__stronn{
+color: rgb(174, 123, 60);
+font-family: Raleway;
+font-size: 24px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+.ports__tittlee{
+color: rgb(174, 123, 60);
+font-family: Raleway;
+font-size: 24px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+.ports__stron{
+color: rgb(40, 43, 34);
+font-family: Raleway;
+font-size: 24px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.3;
+}
+.ports__tittle{
+color: rgb(40, 43, 34);
+font-family: Raleway;
+font-size: 32px;
+font-weight: 600;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: left;
+}
+.ports__text{
+color: rgb(40, 43, 34);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 400;
+line-height: 135%;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.8;
 }

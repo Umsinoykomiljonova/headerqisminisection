@@ -127,6 +127,7 @@ a {
   opacity: 0.8;
   margin-bottom: 23px;
   margin-top: 20px;
+  text-align: center;
 }
 
 .page__btn {
@@ -150,6 +151,7 @@ a {
   }
   .page__text {
     font-size: 18px;
+    text-align: center;
   }
   .page__btn {
     font-size: 16px;
@@ -438,18 +440,7 @@ a {
   }
 }
 
-.page__text {
-  color: #282b22;
-  font-family: Raleway;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 135%;
-  letter-spacing: 0%;
-  text-align: left;
-}
-
 .ports__title {
-  /* заголовок_H2 */
   color: #282b22;
   font-family: Raleway;
   font-size: 46px;
@@ -458,5 +449,77 @@ a {
   letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+.ports__img {
+  width: 340px;
+  height: 240px;
+}
+
+.ports__item {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ports__stronn {
+  color: #ae7b3c;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.ports__tittlee {
+  color: #ae7b3c;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.ports__stron {
+  color: #282b22;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.3;
+}
+
+.ports__tittle {
+  color: #282b22;
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.ports__text {
+  color: #282b22;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.8;
 }
 /*# sourceMappingURL=main.css.map */
