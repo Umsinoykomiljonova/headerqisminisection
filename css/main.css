@@ -437,4 +437,26 @@ a {
     max-width: 352px;
   }
 }
+
+.page__text {
+  color: #282b22;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.ports__title {
+  /* заголовок_H2 */
+  color: #282b22;
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
 /*# sourceMappingURL=main.css.map */
