@@ -1,0 +1,48 @@
+.problems__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.problems__title{
+color: rgb(40, 43, 34);
+font-family: Raleway;
+font-size: 46px;
+font-weight: 600;
+line-height: 125%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 55px;
+margin-top: 55px;
+}
+.problems__stron{
+color: rgb(61, 74, 57);
+font-family: Raleway;
+font-size: 24px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 40px;
+}
+.problems__tit{
+color: rgb(40, 43, 34);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 18px;
+margin-bottom: 15px;
+}
+.ports__text{
+color: rgb(40, 43, 34);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+line-height: 145%;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.8;
+}

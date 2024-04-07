@@ -662,4 +662,63 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.problems__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.problems__title {
+  color: #282b22;
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 55px;
+  margin-top: 55px;
+}
+
+.problems__stron {
+  color: #3d4a39;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.problems__tit {
+  color: #282b22;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 18px;
+  margin-bottom: 15px;
+}
+
+.ports__text {
+  color: #282b22;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 145%;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.8;
+}
 /*# sourceMappingURL=main.css.map */
