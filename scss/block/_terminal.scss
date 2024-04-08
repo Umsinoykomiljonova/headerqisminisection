@@ -1,8 +1,15 @@
 .terminal__section{
   background-color:rgb(61, 74, 57) ;
   width: 800px;
-  height: 696px;
-  margin-top: 80px;
+  padding-top: 95px;
+  padding-bottom: 92px;
+}
+.sect__father{
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  
 }
 .terminal__img{
   width: 15.43px;
@@ -27,8 +34,6 @@ height: 18px;
 font-family: Raleway;
 font-size: 16px;
 font-weight: 700;
-line-height: 100%;
-letter-spacing: 0%;
 border: none;
 background-color: rgb(174, 123, 60);
 padding: 22px 58px;
@@ -40,8 +45,6 @@ color: rgb(255, 255, 255);
 font-family: Raleway;
 font-size: 46px;
 font-weight: 600;
-line-height: 125%;
-letter-spacing: 0%;
 margin-left: 90px;
 text-transform: uppercase;
 margin-bottom: 20px;
@@ -51,8 +54,6 @@ color: rgb(255, 255, 255);
 font-family: Raleway;
 font-size: 16px;
 font-weight: 500;
-line-height: 145%;
-letter-spacing: 0%;
 margin-left: 90px;
 margin-top: 15px;
 }
@@ -62,8 +63,6 @@ font-family: Raleway;
 font-size: 16px;
 font-weight: 500;
 line-height: 145%;
-letter-spacing: 0%;
-margin-left: 90px;
 opacity: 0.5;
 margin-bottom: 15px;
 margin-top: 10px;
@@ -73,14 +72,55 @@ color: rgb(255, 255, 255);
 font-family: Raleway;
 font-size: 12px;
 font-weight: 500;
-line-height: 130%;
-letter-spacing: 0%;
 margin-left: 90px;
 }
 .img__terminal{
-  width: 800px;
-  height: 696px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  max-width: 900px;
+flex-shrink: 0;
+  
 }
+
+@media screen and (max-width:1000px) {
+  .img__terminal{
+    max-width: 500px;
+
+   
+    
+  
+  }
+  .terminal__section{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width:926px) {
+  .img__terminal{
+    max-width: 500px;
+
+   
+    
+  
+  }
+  .terminal__section{
+    width: 400px;
+    padding-top: 47px;
+    padding-bottom: 47px;
+  }
+  .terminal__title,.terminal__tit,.terminal__text,.terminal,.terminal__btn,.terminal__texxt{
+    margin-left: 0;
+  }
+}
+@media screen and (max-width:720px) {
+
+  .img__terminal{
+  display: none;
+   
+  }
+  
+    .terminal__section{
+    margin-left: auto;
+    margin-right: auto;
+    }
+  }
+
+

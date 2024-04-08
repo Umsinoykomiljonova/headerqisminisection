@@ -1,0 +1,73 @@
+.selec__section{
+  background-color:rgb(61, 74, 57); ;
+  width: 800px;
+height: 653px;
+margin-top: 46px;
+}
+.selec__img{
+  width: 15px;
+  height: 15px;
+}
+.selec__title{
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 46px;
+font-weight: 600;
+line-height: 125%;
+letter-spacing: 0%;
+margin-left: 90px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.selec__tit{
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+line-height: 145%;
+letter-spacing: 0%;
+margin-left: 90px;
+opacity: 0.8;
+margin-bottom: 15px;
+}
+.selec__text{
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+line-height: 145%;
+letter-spacing: 0%;
+margin-left: 90px;
+opacity: 0.5;
+margin-bottom: 13px;
+margin-top: 13px;
+}
+.selec__div{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 90px;
+}
+.selec__textt{
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 12px;
+font-weight: 500;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: left;
+}
+.selec__btn{
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+margin-left: 90px;
+background-color: rgb(174, 123, 60);
+padding: 15px 56px;
+border: none;
+margin-top: 22px;
+margin-bottom: 20px;
+}
