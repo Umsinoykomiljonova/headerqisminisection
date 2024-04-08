@@ -34,3 +34,31 @@ margin-bottom: 25px;
   height: 45px;
   opacity: 0.5;
 }
+
+
+
+
+@media only screen and (max-width:835px) {
+  .help__div{
+    max-width: 655px;
+  }
+}
+@media only screen and(max-width:645px) {
+  .help__div{
+    max-width: 621px;
+  }
+  .hellp__img{
+    display: none;
+  }
+  .help__immg{
+    display: none;
+  }
+}
+@media only screen and (max-width:450px) {
+  .help__div{
+    max-width: 347px;
+  }
+  .help__title{
+    font-size: 36px;
+  }
+}

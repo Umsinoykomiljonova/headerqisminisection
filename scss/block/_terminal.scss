@@ -1,6 +1,7 @@
 .terminal__section{
   background-color:rgb(61, 74, 57) ;
-  width: 800px;
+  width: 700px;
+  margin-top: 40px;
   padding-top: 95px;
   padding-bottom: 92px;
 }
@@ -37,7 +38,6 @@ font-weight: 700;
 border: none;
 background-color: rgb(174, 123, 60);
 padding: 22px 58px;
-margin-left: 90px;
 margin-bottom: 20px;
 }
 .terminal__title{
@@ -75,8 +75,9 @@ font-weight: 500;
 margin-left: 90px;
 }
 .img__terminal{
-  max-width: 900px;
+  max-width: 690px;
 flex-shrink: 0;
+margin-top: 40px;
   
 }
 

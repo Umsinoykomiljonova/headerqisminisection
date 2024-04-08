@@ -1,6 +1,6 @@
 .file__section{
   background-color: rgb(243, 243, 243);
-  width: 1594px;
+  max-width: 1594px;
   height: 480px;
   margin-top: 78px;
   text-align: center;
@@ -51,4 +51,36 @@ padding: 15px 56px;
 .file__immg{
   width: 150px;
   height: 126px;
+}
+
+
+
+
+@media only screen and (max-width:995px) {
+  .file__section{
+    max-width: 833px;
+  }
+}
+@media only screen and (max-width:651px) {
+  .file__section{
+    max-width: 585px;
+  }
+  .file__div{
+    display: none;
+  }
+}
+@media only screen and (max-width:439px) {
+  .file__section{
+    max-width: 350px;
+  }
+  .file__title{
+    font-size: 24px;
+  }
+  .file__text{
+    font-size: 16px;
+  }
+  .file__btn{
+    font-size: 16px;
+    padding: 15px 24px;
+  }
 }
